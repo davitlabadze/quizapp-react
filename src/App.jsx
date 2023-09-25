@@ -1,10 +1,12 @@
+import './index.css'
 
-function App() {
-
-  return (
-    <>
-      test
-    </>
+const App = () => {
+return (
+   <>
+    <h1 className="text-3xl text-green-500 font-bold underline">
+      Hello world!
+    </h1>
+   </>
   )
 }
 
