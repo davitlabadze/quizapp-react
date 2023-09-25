@@ -1,0 +1,77 @@
+[
+  {
+    "id" : 1,
+    "quote" : "Live as if you were to die tomorrow. Learn as if you were to live forever.",
+    "name" : " - Mahatma Gandhi"
+  },
+  {
+    "id" : 2,
+    "quote" : "The beautiful thing about learning is that no one can take it away from you.",
+    "name" : " - B.B. King"
+  },
+  {
+    "id" : 3,
+    "quote" : "Education is the passport to the future, for tomorrow belongs to those who prepare for it today.",
+    "name" : " - Malcolm X"
+  },
+  {
+    "id" : 4,
+    "quote" : "Learning is not attained by chance; it must be sought for with ardor and attended to with diligence.",
+    "name" : " - Abigail Adams"
+  },
+  {
+    "id" : 5,
+    "quote" : "The capacity to learn is a gift; the ability to learn is a skill; the willingness to learn is a choice.",
+    "name" : "  - Brian Herbert"
+  },
+  {
+    "id" : 6,
+    "quote" : "Learning never exhausts the mind.",
+    "name" : " - Leonardo da Vinci"
+  },
+  {
+    "id" : 7,
+    "quote": "The more that you read, the more things you will know. The more that you learn, the more places you'll go.",
+    "name" : " - Dr. Seuss"
+  },
+  {
+    "id" : 8,
+    "quote" : "Education is the most powerful weapon which you can use to change the world.",
+    "name" : " - Nelson Mandela"
+  },
+  {
+    "id" : 9,
+    "quote" : "In learning, you will teach, and in teaching, you will learn.",
+    "name" : " - Phil Collins"
+  },
+  {
+    "id" : 10,
+    "quote" : "I am always doing that which I cannot do, in order that I may learn how to do it.",
+    "name" : " - Pablo Picasso"
+  },
+  {
+    "id" : 11,
+    "quote" : "The roots of education are bitter, but the fruit is sweet.",
+    "name" : "  - Aristotle"
+  },
+  {
+    "id" : 12,
+    "quote" : "The only person who is educated is the one who has learned how to learn and change.",
+    "name" : " - Carl Rogers"
+  },
+  {
+    "id" : 13,
+    "quote" : "An investment in knowledge pays the best interest.",
+    "name" : " - Benjamin Franklin"
+  },
+  {
+    "id" : 14,
+    "quote" : "Learning is not the product of teaching. Learning is the product of the activity of learners.",
+    "name" : " - John Holt"
+  },
+  {
+    "id" : 15,
+    "quote" : "You don't have to be great to start, but you have to start to be great." ,
+    "name" : " - Zig Ziglar"
+  }
+]

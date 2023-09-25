@@ -1,6 +1,7 @@
 // import { ArrowPathIcon, LockClosedIcon } from '@heroicons/react/20/solid'
 import { BiLogoReact,BiLogoAngular } from "react-icons/bi";
 import { FaVuejs } from "react-icons/fa";
+import quotes from "./db/quotes.json";
 
 
 
@@ -31,6 +32,18 @@ const App = () => {
     icon: BiLogoAngular,
   },
 ];
+// const jsonData = [
+//   { id: 1, name: 'Item 1' },
+//   { id: 2, name: 'Item 2' },
+//   { id: 3, name: 'Item 3' },
+//   // Add more items as needed
+// ];
+  const getRandomQuote = () => {
+    const randomIndex = Math.floor(Math.random() * quotes.length);
+    return quotes[randomIndex];
+  };
+  const randomQuote = getRandomQuote();
+  // console.log(randomQuote);
 return (
    <>
     <div className="bg-white py-2 sm:py-32">
@@ -41,7 +54,8 @@ return (
             Check your knowledge
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Take the test and prove to the world how strong you are
+            {randomQuote.quote}
+            <strong className="float-right mt-6">{randomQuote.name}</strong>
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
