@@ -1,10 +1,7 @@
-// import { ArrowPathIcon, LockClosedIcon } from '@heroicons/react/20/solid'
 import { BiLogoReact,BiLogoAngular } from "react-icons/bi";
 import { FaVuejs } from "react-icons/fa";
 import quotes from "../db/quotes.json";
 import { Link } from "react-router-dom";
-
-
 
 const Root = () => {
   const features = [
@@ -64,10 +61,9 @@ return (
                 <dd className="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600">
                   <p className="flex-auto">{feature.description}</p>
                   <p className="mt-6">
-                    {/* <a href={feature.href} className="text-sm font-semibold leading-6 text-indigo-600">
-                    Start Quiz <span aria-hidden="true">→</span>
-                    </a> */}
-                    <Link to={feature.href} className="text-sm font-semibold leading-6 text-indigo-600">Start Quiz <span aria-hidden="true">→</span></Link>
+                    <Link to={feature.href} className="text-sm font-semibold leading-6 text-indigo-600">
+                      Start Quiz <span aria-hidden="true">→</span>
+                    </Link>
                   </p>
                 </dd>
               </div>
