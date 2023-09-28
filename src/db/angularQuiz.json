@@ -1,0 +1,426 @@
+[
+  {
+    "question": "What is AngularJS primarily used for in web development?",
+    "options": [
+      { "id": 1, "answer": "Creating mobile applications", "isCorrect": false },
+      { "id": 2, "answer": "Server-side scripting", "isCorrect": false },
+      {
+        "id": 3,
+        "answer": "Building interactive web applications",
+        "isCorrect": true
+      },
+      { "id": 4, "answer": "Managing databases", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "What is the core building block of an AngularJS application?",
+    "options": [
+      { "id": 1, "answer": "Module", "isCorrect": true },
+      { "id": 2, "answer": "Service", "isCorrect": false },
+      { "id": 3, "answer": "Directive", "isCorrect": false },
+      { "id": 4, "answer": "Component", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "What does the term 'two-way data binding' mean in AngularJS?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Data binding between two different components",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Data binding between a parent and a child component",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Automatically keeping the model and view in sync",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "answer": "Manually updating the DOM elements",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What is the purpose of AngularJS directives?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "To define component templates",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "To create services for data manipulation",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "To add custom behavior and attach special behavior to the DOM",
+        "isCorrect": true
+      },
+      { "id": 4, "answer": "To manage application routing", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Which AngularJS directive is used for iteration and looping through arrays or collections in HTML templates?",
+    "options": [
+      { "id": 1, "answer": "ng-loop", "isCorrect": false },
+      { "id": 2, "answer": "ng-for", "isCorrect": false },
+      { "id": 3, "answer": "ng-repeat", "isCorrect": true },
+      { "id": 4, "answer": "ng-iterate", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "What is dependency injection in AngularJS, and why is it important?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "A way to manage database connections",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "A technique for handling HTTP requests",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "A mechanism for managing component dependencies and promoting modularity",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "answer": "A method for routing in AngularJS applications",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What is the purpose of AngularJS services, and how are they different from components?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Services are used for UI rendering, while components handle business logic.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Services provide reusable code and shareable data, while components define the user interface.",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "answer": "Components are used for server-side scripting, while services handle client-side data.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "Services are used for routing, while components manage database connections.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What is the AngularJS directive used to bind an input element's value to a variable in the controller's scope?",
+    "options": [
+      { "id": 1, "answer": "ng-bind", "isCorrect": false },
+      { "id": 2, "answer": "ng-value", "isCorrect": false },
+      { "id": 3, "answer": "ng-model", "isCorrect": true },
+      { "id": 4, "answer": "ng-input", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "What is an AngularJS filter, and how can it be used to format data in a view?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "A tool for creating server-side APIs",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "A way to control the routing in an AngularJS application",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "A function for formatting and filtering data before it's displayed in the view",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "answer": "A mechanism for creating user authentication in AngularJS",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What is the AngularJS $http service used for?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Managing component dependencies",
+        "isCorrect": false
+      },
+      { "id": 2, "answer": "Handling user authentication", "isCorrect": false },
+      {
+        "id": 3,
+        "answer": "Making HTTP requests to external APIs or services",
+        "isCorrect": true
+      },
+      { "id": 4, "answer": "Defining custom directives", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "What are AngularJS modules, and why are they important in structuring an AngularJS application?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Modules are used for database management.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Modules are a way to define components.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Modules are used for dependency injection and organizing code into functional units.",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "answer": "Modules are primarily used for styling in AngularJS.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Explain the concept of AngularJS components and their role in building user interfaces.",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Components are used for routing in AngularJS.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Components are the building blocks of AngularJS applications, encapsulating both UI and behavior.",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "answer": "Components are primarily used for server-side scripting.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "Components are a way to manage database connections in AngularJS.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What is the purpose of AngularJS directives like ng-class and ng-style?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Managing routing in AngularJS applications",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Controlling the visibility of elements",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Dynamically applying CSS classes and styles to elements",
+        "isCorrect": true
+      },
+      { "id": 4, "answer": "Handling HTTP requests", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "What is AngularJS routing, and how does it help in creating single-page applications (SPAs)?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Routing is used for server-side scripting.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Routing is a way to define components.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Routing is the process of mapping URLs to views and enables navigation without full page reloads.",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "answer": "Routing is used for creating user authentication.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Explain the concept of AngularJS services and how they facilitate data sharing and communication between components.",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Services are used for client-side rendering.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Services are components with UI templates.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Services are singletons that provide shared functionality and data access across components.",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "answer": "Services are primarily used for handling user input.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What is the AngularJS $rootScope, and when should it be used?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "$rootScope is the top-level scope for an AngularJS application and should be used for global data.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "$rootScope is a child scope of controllers and should be used for component-specific data.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "$rootScope is primarily used for defining custom directives.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "$rootScope is deprecated in AngularJS.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What are AngularJS promises, and how are they used in asynchronous operations, such as HTTP requests?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Promises are primarily used for routing in AngularJS.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Promises are a way to create custom directives.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Promises represent a future value and are used for handling asynchronous operations, such as HTTP requests, with .then() and .catch() methods.",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "answer": "Promises are not supported in AngularJS.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Explain the concept of AngularJS decorators and their use in extending or modifying AngularJS services.",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Decorators are a way to create custom directives.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Decorators are primarily used for handling user authentication.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Decorators are used to extend or modify AngularJS services, providing a way to intercept and enhance their functionality.",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "answer": "Decorators are not supported in AngularJS.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What is AngularJS transclusion, and how can it be used to create more flexible directives?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Transclusion is a deprecated feature in AngularJS.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Transclusion is used for routing in AngularJS.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Transclusion allows a directive to include content from its parent element and render it within its template, making directives more flexible and reusable.",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "answer": "Transclusion is used for managing database connections.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Explain the concept of AngularJS animations and their role in enhancing user interfaces.",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Animations in AngularJS are not supported.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Animations are primarily used for server-side scripting.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "AngularJS animations allow you to add fluid, engaging transitions and animations to the user interface, improving the overall user experience.",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "answer": "Animations are used for defining custom directives.",
+        "isCorrect": false
+      }
+    ]
+  }
+]

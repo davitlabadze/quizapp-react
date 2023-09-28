@@ -1,0 +1,334 @@
+[
+  {
+    "question": "What is Vue.js primarily used for in web development?",
+    "options": [
+      { "id": 1, "answer": "Managing server databases", "isCorrect": false },
+      { "id": 2, "answer": "Creating user interfaces", "isCorrect": true },
+      { "id": 3, "answer": "Handling HTTP requests", "isCorrect": false },
+      { "id": 4, "answer": "Running server-side scripts", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "What is the core library of Vue.js called?",
+    "options": [
+      { "id": 1, "answer": "Vue.js Core", "isCorrect": true },
+      { "id": 2, "answer": "Vue.js Base", "isCorrect": false },
+      { "id": 3, "answer": "Vue.js Runtime", "isCorrect": false },
+      { "id": 4, "answer": "Vue.js Reactivity", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "What is the Vue.js directive used for data binding between the HTML and Vue instance?",
+    "options": [
+      { "id": 1, "answer": "v-html", "isCorrect": false },
+      { "id": 2, "answer": "v-bind", "isCorrect": true },
+      { "id": 3, "answer": "v-model", "isCorrect": false },
+      { "id": 4, "answer": "v-if", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "What is Vue's concept for managing user input and form elements, allowing two-way data binding?",
+    "options": [
+      { "id": 1, "answer": "Vue Model", "isCorrect": false },
+      { "id": 2, "answer": "Vue Control", "isCorrect": false },
+      { "id": 3, "answer": "Vue Component", "isCorrect": true },
+      { "id": 4, "answer": "Vue Router", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Which Vue.js lifecycle hook is called after a component is inserted into the DOM?",
+    "options": [
+      { "id": 1, "answer": "created", "isCorrect": false },
+      { "id": 2, "answer": "mounted", "isCorrect": true },
+      { "id": 3, "answer": "updated", "isCorrect": false },
+      { "id": 4, "answer": "destroyed", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "In Vue.js, what does the v-for directive do?",
+    "options": [
+      { "id": 1, "answer": "Imports external libraries", "isCorrect": false },
+      {
+        "id": 2,
+        "answer": "Binds a component to a property",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Loops through an array and renders elements",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "answer": "Applies CSS styles to an element",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following is used to conditionally render an element in Vue.js?",
+    "options": [
+      { "id": 1, "answer": "v-render", "isCorrect": false },
+      { "id": 2, "answer": "v-show", "isCorrect": true },
+      { "id": 3, "answer": "v-hide", "isCorrect": false },
+      { "id": 4, "answer": "v-display", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "What does the Vue.js computed property allow you to do?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Define methods for component logic",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Create dynamic properties that update reactively",
+        "isCorrect": true
+      },
+      { "id": 3, "answer": "Import external data sources", "isCorrect": false },
+      { "id": 4, "answer": "Manage component state", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "In Vue.js, what is the purpose of the v-on directive?",
+    "options": [
+      { "id": 1, "answer": "Creating custom directives", "isCorrect": false },
+      { "id": 2, "answer": "Defining computed properties", "isCorrect": false },
+      { "id": 3, "answer": "Handling user-defined events", "isCorrect": true },
+      { "id": 4, "answer": "Rendering dynamic content", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "What is the Vue.js router used for in a Vue application?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Handling server-side rendering",
+        "isCorrect": false
+      },
+      { "id": 2, "answer": "Managing global state", "isCorrect": false },
+      {
+        "id": 3,
+        "answer": "Implementing client-side routing",
+        "isCorrect": true
+      },
+      { "id": 4, "answer": "Defining component methods", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "What is the Vue CLI, and how does it simplify Vue.js development?",
+    "options": [
+      { "id": 1, "answer": "A continuous integration tool", "isCorrect": true },
+      {
+        "id": 2,
+        "answer": "A command-line interface for project setup and development",
+        "isCorrect": false
+      },
+      { "id": 3, "answer": "A state management library", "isCorrect": false },
+      { "id": 4, "answer": "A package manager for Vue.js", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Explain the concept of Vue mixins. What problem do they solve in Vue.js development?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Reusable blocks of component logic that can be mixed into multiple components",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "A way to mix Vue with other JavaScript frameworks",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "A feature for mixing HTML and CSS in Vue templates",
+        "isCorrect": false
+      },
+      { "id": 4, "answer": "A way to manage global state", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "What is the purpose of Vue.js directives like v-pre, v-once, and v-cloak?",
+    "options": [
+      { "id": 1, "answer": "Managing global state", "isCorrect": false },
+      {
+        "id": 2,
+        "answer": "Optimizing component rendering",
+        "isCorrect": true
+      },
+      { "id": 3, "answer": "Importing external libraries", "isCorrect": false },
+      { "id": 4, "answer": "Defining computed properties", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "How do you communicate between parent and child components in Vue.js?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Using v-communicate directive",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Using props to pass data from parent to child and custom events to emit data from child to parent",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "answer": "Using v-model for bidirectional data binding",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "Using $emit to trigger methods in child components",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What is Vuex, and how does it help manage state in a Vue.js application?",
+    "options": [
+      { "id": 1, "answer": "A routing library for Vue.js", "isCorrect": true },
+      {
+        "id": 2,
+        "answer": "A library for handling HTTP requests",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "A centralized state management pattern and library",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "A CSS preprocessor for Vue templates",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What are Vue.js slots, and how can they be used to create flexible and reusable components?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Slots are for creating animations in Vue components",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Slots allow you to insert dynamic content into a component's template",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "answer": "Slots are used for routing in Vue applications",
+        "isCorrect": false
+      },
+      { "id": 4, "answer": "Slots are deprecated in Vue 3", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "What are scoped styles in Vue.js, and how do they work?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Scoped styles are global CSS styles applied to all components.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Scoped styles are a way to style components using inline CSS.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Scoped styles encapsulate CSS within a component, preventing it from affecting other components.",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "answer": "Scoped styles are a feature in Vue 3, not Vue 2.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Explain the Vue.js Composition API and its advantages over the Options API.",
+    "options": [
+      {
+        "id": 1,
+        "answer": "The Composition API allows for defining components using classes.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "The Composition API simplifies component logic by using lifecycle hooks.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "The Composition API provides a more flexible and organized way to reuse and compose logic in Vue components.",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "answer": "The Composition API is not recommended for large-scale applications.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What is server-side rendering (SSR) in Vue.js, and why might you choose to use it in a Vue application?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "SSR is a feature for rendering components on the server side only.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "SSR improves SEO and initial load performance by rendering Vue components on the server before sending HTML to the client.",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "answer": "SSR is primarily used for handling HTTP requests in Vue applications.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "SSR is deprecated in favor of client-side rendering.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Explain the concept of Vue.js transitions and animations. How can they be used to enhance user interfaces?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Transitions and animations in Vue.js are deprecated.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Vue.js transitions and animations provide a way to add subtle effects to component changes, such as fade-ins, slide-ins, and more, enhancing the user experience.",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "answer": "Transitions and animations in Vue.js are primarily used for routing.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "Vue.js transitions and animations are only supported in Vue 2, not Vue 3.",
+        "isCorrect": false
+      }
+    ]
+  }
+]

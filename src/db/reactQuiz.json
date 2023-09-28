@@ -1,0 +1,326 @@
+[
+  {
+    "question": "**What is React.js primarily used for in web development?**",
+    "options": [
+      { "id": 1, "answer": "Database management", "isCorrect": false },
+      { "id": 2, "answer": "User interface development", "isCorrect": true },
+      { "id": 3, "answer": "Server-side scripting", "isCorrect": false },
+      { "id": 4, "answer": "Mobile app development", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "**Which of the following best describes JSX in React?**",
+    "options": [
+      {
+        "id": 1,
+        "answer": "JavaScript XML for server-side scripting",
+        "isCorrect": false
+      },
+      { "id": 2, "answer": " new JavaScript framework", "isCorrect": false },
+      {
+        "id": 3,
+        "answer": "A syntax extension for JavaScript",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "answer": "An alternative to HTML in React applications",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "**In React, what is the purpose of a component's state?**",
+    "options": [
+      {
+        "id": 1,
+        "answer": "To store global application data",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "To manage the layout and styles",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "To store and manage component-specific data",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "answer": "To control the routing of the application",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "**Which hook is used for managing state in a functional component in React?**",
+    "options": [
+      { "id": 1, "answer": "useEffect", "isCorrect": false },
+      { "id": 2, "answer": "useContext", "isCorrect": false },
+      { "id": 3, "answer": "useState", "isCorrect": true },
+      { "id": 4, "answer": "useReducer", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "**What is the primary purpose of props in React components?**",
+    "options": [
+      { "id": 1, "answer": "To access external APIs", "isCorrect": false },
+      {
+        "id": 2,
+        "answer": "To pass data from a parent component to a child component",
+        "isCorrect": true
+      },
+      { "id": 3, "answer": "To style components", "isCorrect": false },
+      { "id": 4, "answer": "To define component methods", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "**Which of the following correctly represents the lifecycle method that is equivalent to `componentDidMount` in a functional component with hooks?**",
+    "options": [
+      { "id": 1, "answer": "componentDidUpdate", "isCorrect": false },
+      { "id": 2, "answer": "useEffect", "isCorrect": true },
+      { "id": 3, "answer": "componentWillUnmount", "isCorrect": false },
+      { "id": 4, "answer": "useLayoutEffect", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "**What is the purpose of React Router in a React application?**",
+    "options": [
+      { "id": 1, "answer": "To manage component styles", "isCorrect": false },
+      { "id": 2, "answer": "To handle HTTP requests", "isCorrect": false },
+      {
+        "id": 3,
+        "answer": "To implement client-side routing",
+        "isCorrect": true
+      },
+      { "id": 4, "answer": "To create database queries", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "**What is the key benefit of using Redux in a React application?**",
+    "options": [
+      { "id": 1, "answer": "Simplifies JSX syntax", "isCorrect": false },
+      {
+        "id": 2,
+        "answer": "Enables server-side rendering",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Provides a centralized state management system",
+        "isCorrect": true
+      },
+      { "id": 4, "answer": "Reduces the need for CSS", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "**What library is commonly used for managing global state in a React application?**",
+    "options": [
+      { "id": 1, "answer": "Redux", "isCorrect": true },
+      { "id": 2, "answer": "React Router", "isCorrect": false },
+      { "id": 3, "answer": "Axios", "isCorrect": false },
+      { "id": 4, "answer": "Lodash", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "**What does the term 'controlled component' refer to in React?**",
+    "options": [
+      { "id": 1, "answer": "A component with no state", "isCorrect": false },
+      {
+        "id": 2,
+        "answer": "A component that relies on external libraries",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "A component that manages its own state",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "answer": "A component that delegates control to a parent component",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "**What is the purpose of the Virtual DOM in React?**",
+    "options": [
+      {
+        "id": 1,
+        "answer": "To interact with the browser's DOM directly",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "To improve server-side rendering",
+        "isCorrect": false
+      },
+      { "id": 3, "answer": "To optimize memory usage", "isCorrect": false },
+      {
+        "id": 4,
+        "answer": "To improve the efficiency of DOM updates",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "**Which hook is used to perform side effects in a functional component in React?**",
+    "options": [
+      { "id": 1, "answer": "useEffect", "isCorrect": true },
+      { "id": 2, "answer": "useState", "isCorrect": false },
+      { "id": 3, "answer": "useContext", "isCorrect": false },
+      { "id": 4, "answer": "useReducer", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "**What is the key advantage of using React Router for client-side routing in a React application?**",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Improved database performance",
+        "isCorrect": false
+      },
+      { "id": 2, "answer": "Better SEO optimization", "isCorrect": false },
+      { "id": 3, "answer": "Faster page load times", "isCorrect": false },
+      {
+        "id": 4,
+        "answer": "A single-page application (SPA) experience",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "**In Redux, what is an action?**",
+    "options": [
+      { "id": 1, "answer": "A component's local state", "isCorrect": false },
+      {
+        "id": 2,
+        "answer": "A pure function that describes a state change",
+        "isCorrect": true
+      },
+      { "id": 3, "answer": "A built-in React method", "isCorrect": false },
+      { "id": 4, "answer": "A component's props", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "**What is the primary difference between React functional components and class components?**",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Functional components have better performance.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Class components have lifecycle methods; functional components use hooks.",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "answer": "Functional components can only render JSX",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "Class components are more readable.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "**What is the purpose of the `shouldComponentUpdate` method in a React class component?**",
+    "options": [
+      {
+        "id": 1,
+        "answer": "To update the component's state",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "To determine if a component should re-render",
+        "isCorrect": true
+      },
+      { "id": 3, "answer": "To handle HTTP requests", "isCorrect": false },
+      { "id": 4, "answer": "To perform animations", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "**What is the main advantage of using React Context for state management instead of props drilling?**",
+    "options": [
+      { "id": 1, "answer": "Improved performance", "isCorrect": false },
+      { "id": 2, "answer": "Simpler component hierarchy", "isCorrect": true },
+      { "id": 3, "answer": "Easier debugging", "isCorrect": false },
+      { "id": 4, "answer": "Avoiding prop validation", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "**What are some techniques for optimizing the performance of a React application?**",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Using React Router for all routing",
+        "isCorrect": false
+      },
+      { "id": 2, "answer": "Minimizing the use of Redux", "isCorrect": false },
+      {
+        "id": 3,
+        "answer": "Lazy loading components and routes",
+        "isCorrect": true
+      },
+      { "id": 4, "answer": "Avoiding the use of hooks", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "**Explain the concept of React Server Components and their potential impact on server-side rendering (SSR).**",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Server Components enable server-side rendering for all components.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Server Components are used for server-side routing.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Server Components allow rendering on both the client and server, improving SSR.",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "answer": "Server Components are deprecated in favor of traditional React components.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "**What are some common patterns for code splitting in a React application, and why are they important?**",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Code splitting is unnecessary in React.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Code splitting is used to reduce code duplication.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Code splitting enhances application performance by loading only the necessary code.",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "answer": "Code splitting is used to bundle all code into a single file.",
+        "isCorrect": false
+      }
+    ]
+  }
+]
