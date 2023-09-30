@@ -7,7 +7,7 @@ const FinalComponent = ({ tryAgin, score, length, color }) => {
           Final Results
         </h3>
         <div className="max-w-xl mt-2 text-lg text-gray-500">
-          {score} out of {length} correct - ({(score / length) * 100}%)
+          {score} out of {length} correct
         </div>
         <div className="mt-5">
           <button
