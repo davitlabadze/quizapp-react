@@ -2,6 +2,7 @@ import { useState } from "react";
 import FinalComponent from "./FinalComponent";
 import QuizComponent from "./QuizComponent";
 
+// eslint-disable-next-line react/prop-types
 const MainComponent = ({ quiz, icon, color }) => {
   const [showFinaleResult, setShowFinalResult] = useState(false);
   const [score, setScore] = useState(0);
