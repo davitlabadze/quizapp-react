@@ -2,6 +2,7 @@ import { useState } from "react";
 import angularQuiz from "../db/angularQuiz.json";
 import { BiLogoAngular } from "react-icons/bi";
 import FinalComponent from "../components/FinalComponent";
+import QuizComponent from "../components/QuizComponent";
 const Angular = () => {
   const [showFinaleResult, setShowFinalResult] = useState(false);
   const [score, setScore] = useState(0);
@@ -33,28 +34,36 @@ const Angular = () => {
               color="red"
             />
           ) : (
-            <div>
-              <BiLogoAngular className="h-auto mx-auto w-44" />
-              <h2 className="font-semibold text-white">
-                Question {currentQuestion + 1} out of {angularQuiz.length}
-              </h2>
-              <h3 className="p-4 mt-6 text-base font-semibold leading-6 text-white border rounded">
-                {angularQuiz[currentQuestion].question}
-              </h3>
-              <ul className="mt-12 space-y-3">
-                {angularQuiz[currentQuestion].options.map((option) => {
-                  return (
-                    <li
-                      className="px-6 py-4 overflow-hidden font-mono bg-white rounded-md shadow cursor-pointer hover:bg-red-500 hover:text-white"
-                      onClick={() => optionClicked(option.isCorrect)}
-                      key={option.id}
-                    >
-                      {option.answer}
-                    </li>
-                  );
-                })}
-              </ul>
-            </div>
+            // <div>
+            //   <BiLogoAngular className="h-auto mx-auto w-44" />
+            //   <h2 className="font-semibold text-white">
+            //     Question {currentQuestion + 1} out of {angularQuiz.length}
+            //   </h2>
+            //   <h3 className="p-4 mt-6 text-base font-semibold leading-6 text-white border rounded">
+            //     {angularQuiz[currentQuestion].question}
+            //   </h3>
+            //   <ul className="mt-12 space-y-3">
+            //     {angularQuiz[currentQuestion].options.map((option) => {
+            //       return (
+            //         <li
+            //           className="px-6 py-4 overflow-hidden font-mono bg-white rounded-md shadow cursor-pointer hover:bg-red-500 hover:text-white"
+            //           onClick={() => optionClicked(option.isCorrect)}
+            //           key={option.id}
+            //         >
+            //           {option.answer}
+            //         </li>
+            //       );
+            //     })}
+            //   </ul>
+            // </div>
+            <QuizComponent
+              icon={<BiLogoAngular className="h-auto mx-auto w-44" />}
+              currentQuestion={currentQuestion}
+              length={angularQuiz.length}
+              optionClicked={optionClicked}
+              quiz={angularQuiz}
+              color={"red"}
+            />
           )}
         </div>
       </div>

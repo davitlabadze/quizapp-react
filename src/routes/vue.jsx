@@ -2,6 +2,7 @@ import { useState } from "react";
 import vueQuiz from "../db/vueQuiz.json";
 import { FaVuejs } from "react-icons/fa";
 import FinalComponent from "../components/FinalComponent";
+import QuizComponent from "../components/QuizComponent";
 const Vue = () => {
   const [showFinaleResult, setShowFinalResult] = useState(false);
   const [score, setScore] = useState(0);
@@ -33,28 +34,14 @@ const Vue = () => {
               color="green"
             />
           ) : (
-            <div>
-              <FaVuejs className="h-auto mx-auto w-44" />
-              <h2>
-                Question {currentQuestion + 1} out of {vueQuiz.length}
-              </h2>
-              <h3 className="p-4 mt-6 text-base font-semibold leading-6 text-white border rounded">
-                {vueQuiz[currentQuestion].question}
-              </h3>
-              <ul className="mt-12 space-y-3">
-                {vueQuiz[currentQuestion].options.map((option) => {
-                  return (
-                    <li
-                      className="px-6 py-4 overflow-hidden font-mono bg-white rounded-md shadow cursor-pointer hover:bg-green-500 hover:text-white"
-                      onClick={() => optionClicked(option.isCorrect)}
-                      key={option.id}
-                    >
-                      {option.answer}
-                    </li>
-                  );
-                })}
-              </ul>
-            </div>
+            <QuizComponent
+              icon={<FaVuejs className="h-auto mx-auto w-44" />}
+              currentQuestion={currentQuestion}
+              length={vueQuiz.length}
+              optionClicked={optionClicked}
+              quiz={vueQuiz}
+              color={"green"}
+            />
           )}
         </div>
       </div>

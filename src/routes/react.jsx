@@ -2,6 +2,7 @@ import { useState } from "react";
 import reactQuiz from "../db/reactQuiz.json";
 import { BiLogoReact } from "react-icons/bi";
 import FinalComponent from "../components/FinalComponent";
+import QuizComponent from "../components/QuizComponent";
 const React = () => {
   const [showFinaleResult, setShowFinalResult] = useState(false);
   const [score, setScore] = useState(0);
@@ -33,29 +34,14 @@ const React = () => {
               color="sky"
             />
           ) : (
-            <div>
-              <BiLogoReact className="h-auto mx-auto mb-6 w-44" />
-              <h2 className="font-semibold text-white">
-                Question {currentQuestion + 1} out of {reactQuiz.length}
-              </h2>
-              <h3 className="p-4 mt-6 text-base font-semibold leading-6 text-white border rounded">
-                {reactQuiz[currentQuestion].question}
-              </h3>
-
-              <ul className="mt-12 space-y-3">
-                {reactQuiz[currentQuestion].options.map((option) => {
-                  return (
-                    <li
-                      className="px-6 py-4 overflow-hidden font-mono bg-white rounded-md shadow cursor-pointer hover:bg-sky-500 hover:text-white"
-                      onClick={() => optionClicked(option.isCorrect)}
-                      key={option.id}
-                    >
-                      {option.answer}
-                    </li>
-                  );
-                })}
-              </ul>
-            </div>
+            <QuizComponent
+              icon={<BiLogoReact className="h-auto mx-auto mb-6 w-44" />}
+              currentQuestion={currentQuestion}
+              length={reactQuiz.length}
+              optionClicked={optionClicked}
+              quiz={reactQuiz}
+              color={"sky"}
+            />
           )}
         </div>
       </div>
