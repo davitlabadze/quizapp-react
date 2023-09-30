@@ -35,7 +35,6 @@ const Vue = () => {
           ) : (
             <div>
               <FaVuejs className="h-auto mx-auto w-44" />
-              {/* <icon className={"h-5 w-5 flex-none "+feature.textColor} aria-hidden="true" /> */}
               <h2>
                 Question {currentQuestion + 1} out of {vueQuiz.length}
               </h2>
