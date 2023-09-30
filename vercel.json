@@ -1,6 +1,5 @@
 {
   "routes": [
-    { "handle": "filesystem" },
-    { "src": "/(.*)", "status": 404, "dest": "/error-page.jsx" }
+    { "src": "/.*", "dest": "https://quizapp-react-alpha.vercel.app/" }
   ]
 }
