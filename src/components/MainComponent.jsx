@@ -3,7 +3,7 @@ import FinalComponent from "./FinalComponent";
 import QuizComponent from "./QuizComponent";
 
 // eslint-disable-next-line react/prop-types
-const MainComponent = ({ quiz, icon, color }) => {
+const MainComponent = ({ quiz, icon, color, bgColor }) => {
   const [showFinaleResult, setShowFinalResult] = useState(false);
   const [score, setScore] = useState(0);
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -40,7 +40,7 @@ const MainComponent = ({ quiz, icon, color }) => {
               length={quiz.length}
               optionClicked={optionClicked}
               quiz={quiz}
-              color={color}
+              color={bgColor}
             />
           )}
         </div>
