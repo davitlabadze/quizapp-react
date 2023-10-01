@@ -23,7 +23,7 @@ const Vue = () => {
     setShowFinalResult(false);
   };
   return (
-    <div className="h-screen py-2 font-mono bg-green-600 sm:py-32">
+    <div className="h-screen py-2 font-mono bg-green-600">
       <div className="px-6 mx-auto max-w-7xl lg:px-8">
         <div className="max-w-2xl mx-auto lg:text-center">
           {showFinaleResult ? (
@@ -35,7 +35,7 @@ const Vue = () => {
             />
           ) : (
             <QuizComponent
-              icon={<FaVuejs className="h-auto mx-auto w-44" />}
+              icon={<FaVuejs className="h-24 mx-auto w-44" />}
               currentQuestion={currentQuestion}
               length={vueQuiz.length}
               optionClicked={optionClicked}

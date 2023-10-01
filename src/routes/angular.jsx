@@ -23,7 +23,7 @@ const Angular = () => {
     setShowFinalResult(false);
   };
   return (
-    <div className="h-screen py-2 font-mono bg-red-600 sm:py-32">
+    <div className="h-screen py-2 font-mono bg-red-600">
       <div className="px-6 mx-auto max-w-7xl lg:px-8">
         <div className="max-w-2xl mx-auto lg:text-center">
           {showFinaleResult ? (
@@ -35,7 +35,7 @@ const Angular = () => {
             />
           ) : (
             <QuizComponent
-              icon={<BiLogoAngular className="h-auto mx-auto w-44" />}
+              icon={<BiLogoAngular className="h-24 mx-auto w-44" />}
               currentQuestion={currentQuestion}
               length={angularQuiz.length}
               optionClicked={optionClicked}

@@ -23,7 +23,7 @@ const React = () => {
     setShowFinalResult(false);
   };
   return (
-    <div className="h-screen py-2 font-mono bg-sky-600 sm:py-32">
+    <div className="h-screen py-2 font-mono bg-sky-600 ">
       <div className="px-6 mx-auto max-w-7xl lg:px-8">
         <div className="max-w-2xl mx-auto lg:text-center">
           {showFinaleResult ? (
@@ -35,7 +35,7 @@ const React = () => {
             />
           ) : (
             <QuizComponent
-              icon={<BiLogoReact className="h-auto mx-auto mb-6 w-44" />}
+              icon={<BiLogoReact className="h-24 mx-auto mb-6 w-44" />}
               currentQuestion={currentQuestion}
               length={reactQuiz.length}
               optionClicked={optionClicked}
