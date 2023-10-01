@@ -87,7 +87,7 @@ const Dashboard = () => {
                               to={item.href}
                               className={({ isActive }) =>
                                 isActive
-                                  ? "bg-gray-800 text-white group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold "
+                                  ? `${`${item.color} text-white group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold `}`
                                   : "text-gray-400 hover:text-white hover:bg-gray-800 group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold "
                               }
                             >
@@ -111,11 +111,6 @@ const Dashboard = () => {
         {/* Static sidebar for desktop */}
         <div className="hidden lg:fixed lg:inset-y-0 lg:left-0 lg:z-50 lg:block lg:w-20 lg:overflow-y-auto lg:bg-gray-900 lg:pb-4">
           <div className="flex items-center justify-center h-16 shrink-0">
-            {/* <img
-              className="w-auto h-8"
-              src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
-              alt="Your Company"
-            /> */}
             <img className="w-auto h-8" src={AppIcon} alt="quiz app" />
           </div>
           <nav className="mt-8">
@@ -126,7 +121,7 @@ const Dashboard = () => {
                     to={item.href}
                     className={({ isActive }) =>
                       isActive
-                        ? "bg-gray-800 text-white group flex gap-x-3 rounded-md p-3 text-sm leading-6 font-semibold"
+                        ? `${`${item.color} text-white group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold `}`
                         : "text-gray-400 hover:text-white hover:bg-gray-800 group flex gap-x-3 rounded-md p-3 text-sm leading-6 font-semibold"
                     }
                   >
