@@ -6,7 +6,7 @@ const QuizComponent = ({
   length,
   optionClicked,
   quiz,
-  color,
+  hoverBgColor,
 }) => {
   return (
     <div>
@@ -21,7 +21,7 @@ const QuizComponent = ({
         {quiz[currentQuestion].options.map((option) => {
           return (
             <li
-              className={`px-6 py-4 overflow-hidden font-mono bg-white rounded-md shadow cursor-pointer  lg:hover:text-white ${color}`}
+              className={`px-6 py-4 overflow-hidden font-mono bg-white rounded-md shadow cursor-pointer  lg:hover:text-white ${hoverBgColor}`}
               onClick={() => optionClicked(option.isCorrect)}
               key={option.id}
             >

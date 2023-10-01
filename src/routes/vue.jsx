@@ -6,8 +6,9 @@ const Vue = () => {
     <MainComponent
       quiz={vueQuiz}
       icon={<FaVuejs className="h-24 mx-auto mb-6 w-44" />}
-      color="green"
-      bgColor="lg:hover:bg-green-500"
+      focus="focus-visible:outline-green-500"
+      bgColor="bg-green-600"
+      hoverBgColor="lg:hover:bg-green-500"
     />
   );
 };

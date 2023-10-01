@@ -1,5 +1,12 @@
-// eslint-disable-next-line react/prop-types
-const FinalComponent = ({ tryAgin, score, length, color, bgColor }) => {
+/* eslint-disable react/prop-types */
+const FinalComponent = ({
+  tryAgin,
+  score,
+  length,
+  focus,
+  bgColor,
+  hoverBgColor,
+}) => {
   return (
     <div className="py-24">
       <div className="bg-white shadow sm:rounded-lg ">
@@ -13,7 +20,7 @@ const FinalComponent = ({ tryAgin, score, length, color, bgColor }) => {
           <div className="mt-5">
             <button
               type="button"
-              className={`inline-flex items-center px-3 py-2 text-sm font-semibold text-white bg-${color}-600 rounded-md shadow-sm ${bgColor} focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-${color}-500`}
+              className={`inline-flex items-center px-3 py-2 text-sm font-semibold text-white ${bgColor} rounded-md shadow-sm ${hoverBgColor} focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 ${focus}`}
               onClick={tryAgin}
             >
               Try Agin

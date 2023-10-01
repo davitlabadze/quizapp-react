@@ -6,8 +6,9 @@ const Angular = () => {
     <MainComponent
       quiz={angularQuiz}
       icon={<BiLogoAngular className="h-24 mx-auto mb-6 w-44" />}
-      color="red"
-      bgColor="lg:hover:bg-red-500"
+      focus="focus-visible:outline-red-500"
+      bgColor="bg-red-600"
+      hoverBgColor="lg:hover:bg-red-500"
     />
   );
 };

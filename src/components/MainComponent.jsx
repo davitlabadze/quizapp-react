@@ -3,7 +3,7 @@ import FinalComponent from "./FinalComponent";
 import QuizComponent from "./QuizComponent";
 
 // eslint-disable-next-line react/prop-types
-const MainComponent = ({ quiz, icon, color, bgColor }) => {
+const MainComponent = ({ quiz, icon, focus, bgColor, hoverBgColor }) => {
   const [showFinaleResult, setShowFinalResult] = useState(false);
   const [score, setScore] = useState(0);
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -23,7 +23,7 @@ const MainComponent = ({ quiz, icon, color, bgColor }) => {
     setShowFinalResult(false);
   };
   return (
-    <div className={`h-screen py-2 font-mono bg-${color}-600 `}>
+    <div className={`h-screen py-2 font-mono ${bgColor}`}>
       <div className="px-6 mx-auto max-w-7xl lg:px-8">
         <div className="max-w-2xl mx-auto lg:text-center">
           {showFinaleResult ? (
@@ -31,7 +31,7 @@ const MainComponent = ({ quiz, icon, color, bgColor }) => {
               tryAgin={tryAgin}
               score={score}
               length={quiz.length}
-              color={`${color}`}
+              focus={focus}
               bgColor={bgColor}
             />
           ) : (
@@ -41,7 +41,7 @@ const MainComponent = ({ quiz, icon, color, bgColor }) => {
               length={quiz.length}
               optionClicked={optionClicked}
               quiz={quiz}
-              color={bgColor}
+              hoverBgColor={hoverBgColor}
             />
           )}
         </div>
