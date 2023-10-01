@@ -23,7 +23,7 @@ const MainComponent = ({ quiz, icon, color, bgColor }) => {
     setShowFinalResult(false);
   };
   return (
-    <div className={`h-screen py-2 font-mono bg-${color}-600 sm:py-32`}>
+    <div className={`h-screen py-2 font-mono bg-${color}-600 `}>
       <div className="px-6 mx-auto max-w-7xl lg:px-8">
         <div className="max-w-2xl mx-auto lg:text-center">
           {showFinaleResult ? (
