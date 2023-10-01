@@ -1,6 +1,7 @@
 import { Fragment, useState } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import Navigation from "../db/Navigation";
+import AppIcon from "../../public/icon.svg";
 
 import { Outlet, NavLink } from "react-router-dom";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
@@ -73,7 +74,7 @@ const Dashboard = () => {
                       /> */}
                       <img
                         className="w-auto h-8"
-                        src="/public/icon.svg"
+                        src={AppIcon}
                         alt="quiz app"
                       />
                       <h1 className="ml-3 text-white font-bold">Quiz app</h1>
@@ -115,7 +116,7 @@ const Dashboard = () => {
               src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
               alt="Your Company"
             /> */}
-            <img className="w-auto h-8" src="/public/icon.svg" alt="quiz app" />
+            <img className="w-auto h-8" src={AppIcon} alt="quiz app" />
           </div>
           <nav className="mt-8">
             <ul role="list" className="flex flex-col items-center space-y-1">
@@ -161,7 +162,7 @@ const Dashboard = () => {
               alt=""
             />
           </a> */}
-          <img className="w-auto h-8" src="/public/icon.svg" alt="quiz app" />
+          <img className="w-auto h-8" src={AppIcon} alt="quiz app" />
         </div>
 
         <main className="lg:pl-20">
