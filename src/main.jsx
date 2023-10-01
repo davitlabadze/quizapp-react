@@ -8,6 +8,7 @@ import Vue from "./routes/vue";
 import Angular from "./routes/angular";
 import "./index.css";
 import Dashboard from "./routes/dashboard.";
+import Javascript from "./routes/javascript";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
     element: <Dashboard />,
     errorElement: <ErrorPage />,
     children: [
+      {
+        path: "javascript",
+        element: <Javascript />,
+      },
       {
         path: "react",
         element: <ReactRouter />,

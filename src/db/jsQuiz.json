@@ -1,0 +1,474 @@
+[
+  {
+    "question": "What is the purpose of the 'var' keyword in JavaScript?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Declaring variables with function scope.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Declaring variables with block scope.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Declaring constants in JavaScript.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "Creating objects in JavaScript.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What is a closure in JavaScript?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "A function that has access to its own private variables and outer function variables.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "A built-in JavaScript object for closing windows.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "A way to prevent code execution.",
+        "isCorrect": false
+      },
+      { "id": 4, "answer": "A type of loop in JavaScript.", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'typeof' operator in JavaScript?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "To check the data type of a variable or expression.",
+        "isCorrect": true
+      },
+      { "id": 2, "answer": "To create new variables.", "isCorrect": false },
+      { "id": 3, "answer": "To define functions.", "isCorrect": false },
+      {
+        "id": 4,
+        "answer": "To perform mathematical operations.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Explain the difference between 'null' and 'undefined' in JavaScript.",
+    "options": [
+      {
+        "id": 1,
+        "answer": "'null' represents an intentional absence of any object value, while 'undefined' indicates a variable or property that has not been assigned a value.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "'null' is a type of number, and 'undefined' is a type of string.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "'null' and 'undefined' are interchangeable and can be used interchangeably in code.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "'undefined' is used for empty strings, while 'null' is used for empty arrays.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What is event delegation in JavaScript?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "A technique where a single event listener is attached to a common ancestor of multiple elements, reducing the number of event handlers.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "A method for handling keyboard events only.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "A way to create custom events in JavaScript.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "A way to stop event propagation.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "How do you create a function in JavaScript?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Using the 'function' keyword followed by a function name and parameters.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "By declaring it with the 'func' keyword.",
+        "isCorrect": false
+      },
+      { "id": 3, "answer": "By using the 'def' keyword.", "isCorrect": false },
+      {
+        "id": 4,
+        "answer": "Functions are automatically created when needed; no explicit declaration is required.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'querySelector' method in JavaScript?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "To select the first element in the document that matches a specified CSS selector.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "To select all elements in the document.",
+        "isCorrect": false
+      },
+      { "id": 3, "answer": "To create new DOM elements.", "isCorrect": false },
+      { "id": 4, "answer": "To define custom CSS styles.", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "What is the difference between '==' and '===' in JavaScript?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "'==' performs type coercion, while '===' compares both value and type without coercion.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "'==' is used for assignment, and '===' is used for comparison.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "'==' is a deprecated operator in JavaScript.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "'===' is shorthand for '==' and can be used interchangeably.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'push' method in JavaScript arrays?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "To add one or more elements to the end of an array and return the new length of the array.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "To remove the last element from an array.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "To reverse the order of elements in an array.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "To check if an element exists in an array.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What is a callback function in JavaScript?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "A function passed as an argument to another function to be executed at a later time or in response to an event.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "A function used to call other functions.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "A function that returns a value based on its arguments.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "A function that automatically runs when the page loads.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Explain the concept of hoisting in JavaScript.",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Hoisting is a JavaScript behavior where variable and function declarations are moved to the top of their containing scope during compilation.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Hoisting is a technique to reduce memory usage in JavaScript.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Hoisting only applies to function declarations, not variable declarations.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "Hoisting is a security feature in JavaScript.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What is the difference between 'let', 'const', and 'var' in JavaScript for declaring variables?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "'let' and 'const' have block scope, while 'var' has function scope.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "'let' and 'const' can be reassigned, while 'var' cannot.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "'const' is used for declaring constants, 'let' and 'var' are used for variables.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "'var' is the only way to declare variables in JavaScript.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Explain the purpose of the 'this' keyword in JavaScript.",
+    "options": [
+      {
+        "id": 1,
+        "answer": "It refers to the current object or context in which a function is executed.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "It is used to declare variables in JavaScript.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "It is a reserved keyword that cannot be used in code.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "It is used to create new objects in JavaScript.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What is the Event Loop in JavaScript and how does it work?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "The Event Loop is a mechanism in JavaScript that manages the execution of asynchronous code by maintaining a call stack and a message queue.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "The Event Loop is a way to create custom events in JavaScript.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "The Event Loop is used to control animations in JavaScript.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "The Event Loop is a deprecated feature in modern JavaScript.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "How do you handle errors in JavaScript using try...catch?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "You wrap the code that might throw an exception in a 'try' block, and if an exception occurs, you catch it and handle it in the 'catch' block.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "You use 'throw' statements to intentionally generate errors in JavaScript.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Errors in JavaScript cannot be caught or handled.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "You use 'if...else' statements to handle errors.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What is the purpose of the 'map' function in JavaScript?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "To transform each element of an array and create a new array with the results.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "To filter elements from an array based on a given condition.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "To remove elements from an array.",
+        "isCorrect": false
+      },
+      { "id": 4, "answer": "To sort elements in an array.", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "What is the purpose of the JavaScript 'Promise' object and how does it work?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "A 'Promise' represents a value that may not be available yet but will be resolved or rejected at some point in the future, allowing asynchronous operations to be handled more cleanly.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "A 'Promise' is a way to define and execute asynchronous functions in JavaScript.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "A 'Promise' is used to make synchronous operations in JavaScript.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "A 'Promise' is a deprecated feature in modern JavaScript.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Explain the concept of JavaScript prototypes and how they relate to inheritance.",
+    "options": [
+      {
+        "id": 1,
+        "answer": "In JavaScript, objects inherit properties and methods from their prototypes. When a property or method is not found on an object, JavaScript looks up the prototype chain to find it.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Prototypes are only used in class-based inheritance, not in prototype-based inheritance.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Prototypes are used to create new objects, but they are not related to inheritance.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "Prototypes are a feature of JavaScript engines and not part of the language itself.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Describe the differences between the 'bind', 'call', and 'apply' methods in JavaScript for managing the 'this' context in functions.",
+    "options": [
+      {
+        "id": 1,
+        "answer": "'bind' returns a new function with a specified 'this' value, 'call' and 'apply' invoke the function immediately with a specified 'this' value and arguments.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "'bind' modifies the original function, 'call' creates a new function, and 'apply' is used for asynchronous functions.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "'call' is used for event handling, 'bind' is used for method chaining, and 'apply' is used for callbacks.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "'bind' and 'call' are used for synchronous functions, while 'apply' is used for asynchronous functions.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Explain the concept of asynchronous programming in JavaScript, including the use of callbacks, promises, and async/await.",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Asynchronous programming in JavaScript allows non-blocking execution of code. Callbacks, promises, and async/await are used to handle asynchronous operations and make code more readable and maintainable.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Asynchronous programming in JavaScript is rarely used, and it is recommended to write all code synchronously.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Asynchronous programming in JavaScript is primarily achieved using multithreading.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "Callbacks are the only way to handle asynchronous operations in JavaScript.",
+        "isCorrect": false
+      }
+    ]
+  }
+]
