@@ -31,7 +31,8 @@ const MainComponent = ({ quiz, icon, color, bgColor }) => {
               tryAgin={tryAgin}
               score={score}
               length={quiz.length}
-              color={color}
+              color={`${color}`}
+              bgColor={bgColor}
             />
           ) : (
             <QuizComponent
