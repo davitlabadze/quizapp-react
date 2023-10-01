@@ -40,7 +40,7 @@ const Angular = () => {
               length={angularQuiz.length}
               optionClicked={optionClicked}
               quiz={angularQuiz}
-              color="hover:bg-red-500"
+              color="lg:hover:bg-red-500"
             />
           )}
         </div>

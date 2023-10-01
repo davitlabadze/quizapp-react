@@ -40,7 +40,7 @@ const Vue = () => {
               length={vueQuiz.length}
               optionClicked={optionClicked}
               quiz={vueQuiz}
-              color="hover:bg-green-500"
+              color="lg:hover:bg-green-500"
             />
           )}
         </div>

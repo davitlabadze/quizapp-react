@@ -40,7 +40,7 @@ const React = () => {
               length={reactQuiz.length}
               optionClicked={optionClicked}
               quiz={reactQuiz}
-              color="hover:bg-sky-500"
+              color="lg:hover:bg-sky-500"
             />
           )}
         </div>
