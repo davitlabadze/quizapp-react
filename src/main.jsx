@@ -7,6 +7,7 @@ import ReactRouter from "./routes/react";
 import Vue from "./routes/vue";
 import Angular from "./routes/angular";
 import "./index.css";
+import Dashboard from "./routes/dashboard.";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -14,16 +15,23 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
   },
   {
-    path: "react",
-    element: <ReactRouter />,
-  },
-  {
-    path: "vue",
-    element: <Vue />,
-  },
-  {
-    path: "angular",
-    element: <Angular />,
+    path: "/dashboard",
+    element: <Dashboard />,
+    errorElement: <ErrorPage />,
+    children: [
+      {
+        path: "react",
+        element: <ReactRouter />,
+      },
+      {
+        path: "vue",
+        element: <Vue />,
+      },
+      {
+        path: "angular",
+        element: <Angular />,
+      },
+    ],
   },
 ]);
 

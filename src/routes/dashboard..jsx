@@ -6,10 +6,6 @@ import { Outlet, NavLink } from "react-router-dom";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const Dashboard = () => {
-  function classNames(...classes) {
-    return classes.filter(Boolean).join(" ");
-  }
-
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   return (
@@ -70,39 +66,29 @@ const Dashboard = () => {
 
                   <div className="flex flex-col px-6 pb-2 overflow-y-auto bg-gray-900 grow gap-y-5 ring-1 ring-white/10">
                     <div className="flex items-center h-16 shrink-0">
-                      <img
+                      {/* <img
                         className="w-auto h-8"
                         src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
                         alt="Your Company"
+                      /> */}
+                      <img
+                        className="w-auto h-8"
+                        src="/public/icon.svg"
+                        alt="quiz app"
                       />
+                      <h1 className="ml-3 text-white font-bold">Quiz app</h1>
                     </div>
                     <nav className="flex flex-col flex-1">
                       <ul role="list" className="flex-1 -mx-2 space-y-1">
                         {Navigation.map((item) => (
                           <li key={item.name}>
-                            {/* <a
-                              href={item.href}
-                              className={classNames(
-                                item.current
-                                  ? "bg-gray-800 text-white"
-                                  : "text-gray-400 hover:text-white hover:bg-gray-800",
-                                "group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold"
-                              )}
-                            >
-                              <item.icon
-                                className="w-6 h-6 shrink-0"
-                                aria-hidden="true"
-                              />
-                              {item.name}
-                            </a> */}
                             <NavLink
                               to={item.href}
-                              className={`${({ isActive, isPending }) =>
+                              className={({ isActive }) =>
                                 isActive
-                                  ? "bg-gray-800 text-white"
-                                  : isPending
-                                  ? "pending"
-                                  : "text-gray-400 hover:text-white hover:bg-gray-800"} group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold `}
+                                  ? "bg-gray-800 text-white group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold "
+                                  : "text-gray-400 hover:text-white hover:bg-gray-800 group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold "
+                              }
                             >
                               <item.icon
                                 className="w-6 h-6 shrink-0"
@@ -124,31 +110,31 @@ const Dashboard = () => {
         {/* Static sidebar for desktop */}
         <div className="hidden lg:fixed lg:inset-y-0 lg:left-0 lg:z-50 lg:block lg:w-20 lg:overflow-y-auto lg:bg-gray-900 lg:pb-4">
           <div className="flex items-center justify-center h-16 shrink-0">
-            <img
+            {/* <img
               className="w-auto h-8"
               src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
               alt="Your Company"
-            />
+            /> */}
+            <img className="w-auto h-8" src="/public/icon.svg" alt="quiz app" />
           </div>
           <nav className="mt-8">
             <ul role="list" className="flex flex-col items-center space-y-1">
               {Navigation.map((item) => (
                 <li key={item.name}>
-                  <a
-                    href={item.href}
-                    className={classNames(
-                      item.current
-                        ? "bg-gray-800 text-white"
-                        : "text-gray-400 hover:text-white hover:bg-gray-800",
-                      "group flex gap-x-3 rounded-md p-3 text-sm leading-6 font-semibold"
-                    )}
+                  <NavLink
+                    to={item.href}
+                    className={({ isActive }) =>
+                      isActive
+                        ? "bg-gray-800 text-white group flex gap-x-3 rounded-md p-3 text-sm leading-6 font-semibold"
+                        : "text-gray-400 hover:text-white hover:bg-gray-800 group flex gap-x-3 rounded-md p-3 text-sm leading-6 font-semibold"
+                    }
                   >
                     <item.icon
                       className="w-6 h-6 shrink-0"
                       aria-hidden="true"
                     />
                     <span className="sr-only">{item.name}</span>
-                  </a>
+                  </NavLink>
                 </li>
               ))}
             </ul>
@@ -175,6 +161,7 @@ const Dashboard = () => {
               alt=""
             />
           </a> */}
+          <img className="w-auto h-8" src="/public/icon.svg" alt="quiz app" />
         </div>
 
         <main className="lg:pl-20">

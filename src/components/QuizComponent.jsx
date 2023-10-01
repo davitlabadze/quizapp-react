@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+
 const QuizComponent = ({
   icon,
   currentQuestion,
@@ -20,7 +21,7 @@ const QuizComponent = ({
         {quiz[currentQuestion].options.map((option) => {
           return (
             <li
-              className={`px-6 py-4 overflow-hidden font-mono bg-white rounded-md shadow cursor-pointer hover:bg-${color}-500 hover:text-white`}
+              className={`px-6 py-4 overflow-hidden font-mono bg-white rounded-md shadow cursor-pointer  hover:text-white ${color}`}
               onClick={() => optionClicked(option.isCorrect)}
               key={option.id}
             >
