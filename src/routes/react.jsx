@@ -1,8 +1,10 @@
 import reactQuiz from "../db/reactQuiz.json";
 import { BiLogoReact } from "react-icons/bi";
 import MainComponent from "../components/MainComponent";
+import ReactJob from "../db/ReactJob";
+import Documentation from "../db/ReactDoc";
 
-const React = () => {
+export const React = () => {
   return (
     <MainComponent
       quiz={reactQuiz}
@@ -10,6 +12,8 @@ const React = () => {
       focus="focus-visible:outline-sky-500"
       bgColor="bg-sky-600"
       hoverBgColor="lg:hover:bg-sky-500"
+      job={ReactJob}
+      documentation={Documentation}
     />
   );
 };

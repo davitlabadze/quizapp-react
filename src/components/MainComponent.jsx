@@ -3,7 +3,15 @@ import FinalComponent from "./FinalComponent";
 import QuizComponent from "./QuizComponent";
 
 // eslint-disable-next-line react/prop-types
-const MainComponent = ({ quiz, icon, focus, bgColor, hoverBgColor }) => {
+const MainComponent = ({
+  quiz,
+  icon,
+  focus,
+  bgColor,
+  hoverBgColor,
+  job,
+  documentation,
+}) => {
   const [showFinaleResult, setShowFinalResult] = useState(false);
   const [score, setScore] = useState(0);
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -33,6 +41,8 @@ const MainComponent = ({ quiz, icon, focus, bgColor, hoverBgColor }) => {
               length={quiz.length}
               focus={focus}
               bgColor={bgColor}
+              job={job}
+              documentation={documentation}
             />
           ) : (
             <QuizComponent
