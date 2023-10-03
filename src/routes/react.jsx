@@ -2,7 +2,7 @@ import reactQuiz from "../db/reactQuiz.json";
 import { BiLogoReact } from "react-icons/bi";
 import MainComponent from "../components/MainComponent";
 import ReactJob from "../db/ReactJob";
-import Documentation from "../db/ReactDoc";
+import ReactDoc from "../db/ReactDoc";
 
 export const React = () => {
   return (
@@ -13,7 +13,7 @@ export const React = () => {
       bgColor="bg-sky-600"
       hoverBgColor="md:hover:bg-sky-500"
       job={ReactJob}
-      documentation={Documentation}
+      documentation={ReactDoc}
       textColor="text-sky-500"
       jobText="You can find job here"
       learnText="You can learn here"
