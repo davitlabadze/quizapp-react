@@ -11,9 +11,12 @@ export const React = () => {
       icon={<BiLogoReact className="h-24 mx-auto mb-6 w-44" />}
       focus="focus-visible:outline-sky-500"
       bgColor="bg-sky-600"
-      hoverBgColor="lg:hover:bg-sky-500"
+      hoverBgColor="md:hover:bg-sky-500"
       job={ReactJob}
       documentation={Documentation}
+      textColor="text-sky-500"
+      jobText="You can find job here"
+      learnText="You can learn here"
     />
   );
 };

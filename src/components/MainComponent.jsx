@@ -11,6 +11,9 @@ const MainComponent = ({
   hoverBgColor,
   job,
   documentation,
+  textColor,
+  jobText,
+  learnText,
 }) => {
   const [showFinaleResult, setShowFinalResult] = useState(false);
   const [score, setScore] = useState(0);
@@ -43,6 +46,10 @@ const MainComponent = ({
               bgColor={bgColor}
               job={job}
               documentation={documentation}
+              hoverBgColor={hoverBgColor}
+              textColor={textColor}
+              jobText={jobText}
+              learnText={learnText}
             />
           ) : (
             <QuizComponent
