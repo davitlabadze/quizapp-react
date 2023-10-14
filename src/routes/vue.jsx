@@ -13,7 +13,7 @@ const Vue = () => {
       hoverBgColor="lg:hover:bg-green-500"
       job={VueJob}
       documentation={VueDoc}
-      textColor="text-sky-500"
+      textColor="text-green-500"
       jobText="You can find job here"
       learnText="You can learn here"
     />

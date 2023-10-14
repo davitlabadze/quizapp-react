@@ -1,0 +1,477 @@
+[
+  {
+    "question": "What is CSS, and how is it used in web development?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "CSS stands for Cascading Style Sheets and is used to define the visual presentation and layout of HTML elements on a web page.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "CSS stands for Computer Style Software and is used to create interactive web applications.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "CSS is a programming language used for server-side scripting.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "CSS is primarily used for defining the logical structure of web content.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Explain the difference between inline, internal, and external CSS styles.",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Inline CSS is applied directly to an HTML element using the 'style' attribute, internal CSS is defined within the '<style>' element in the HTML document, and external CSS is stored in a separate .css file.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Inline CSS is used for text formatting, internal CSS is used for layout, and external CSS is used for animations.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Inline CSS is for server-side scripting, internal CSS is for client-side scripting, and external CSS is for database operations.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "Inline CSS is used for creating interactive forms, internal CSS is used for navigation menus, and external CSS is used for multimedia content.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "How do you select HTML elements for styling using CSS, and what are the different types of selectors?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "You can select HTML elements for styling using CSS selectors. Common types include element selectors, class selectors, and ID selectors.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "HTML elements are styled using JavaScript, not CSS.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "CSS does not support element selection; it only works with classes and IDs.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "You can style elements based on their content, not their structure, using CSS.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What is the CSS 'box model,' and how does it impact the layout of elements on a web page?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "The CSS 'box model' describes how elements are displayed as rectangular boxes with content, padding, borders, and margins. It determines the size and spacing of elements on a web page.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "The 'box model' is used to create 3D effects in CSS styles.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "The 'box model' only applies to inline elements, not block-level elements.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "The 'box model' is used for organizing database data in web applications.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Describe the difference between 'margin' and 'padding' in the CSS box model.",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Padding is the space inside the element's border, and margin is the space outside the element. Padding is used to create space between the content and the border, while margin creates space around the element.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Margin and padding are the same and can be used interchangeably.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Padding is used for text formatting, and margin is used for layout.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "Margin and padding are used for defining the color of the box model.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "How can you center an element horizontally and vertically on a web page using CSS?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "You can center an element horizontally by setting 'margin' to 'auto' and vertically by using 'flexbox' or 'transform: translate'.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Centering elements with CSS is not possible; it requires JavaScript.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Centering can only be achieved using 'position: absolute'.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "Centering is only possible with inline elements, not block-level elements.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Explain the concept of 'float' and 'clear' in CSS and their typical use cases.",
+    "options": [
+      {
+        "id": 1,
+        "answer": "The 'float' property is used to make an element float to the left or right within its container, and the 'clear' property is used to control how elements wrap around a floated element.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Float and clear are used to create animation effects in CSS styles.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Float and clear are used to create text formatting styles in CSS.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "Float and clear are used for defining the structure of web content in CSS.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What are CSS pseudo-classes, and how are they used to select elements based on their state or position?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "CSS pseudo-classes are used to apply styles to elements based on their state, such as ':hover' for mouse hover, ':focus' for user input focus, and ':nth-child' for selecting elements by position.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Pseudo-classes are used to create pseudo-elements in CSS.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Pseudo-classes are used for defining the structure of web content in CSS.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "Pseudo-classes are only used for formatting text in CSS.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What is the 'z-index' property in CSS, and how is it used for controlling the stacking order of elements?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "The 'z-index' property controls the stacking order of elements on a web page. Elements with higher 'z-index' values are displayed on top of elements with lower values. It is often used for positioning and layering elements.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "The 'z-index' property is used to create zooming effects in CSS styles.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "The 'z-index' property is used for text formatting in CSS.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "The 'z-index' property is used for creating navigation menus in CSS.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "How can you make a responsive design using CSS, and what are some key techniques for achieving responsiveness in web development?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Responsive design is achieved by using CSS media queries to adapt the layout and styling of a website based on the screen size and device. Techniques include using flexible grids and relative units like percentages.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Responsive design is only possible with JavaScript, not with CSS.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Responsive design is primarily achieved through HTML, and CSS is not involved.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "Responsive design is a technique that is no longer relevant in modern web development.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What is the 'box-sizing' property in CSS, and how does it impact the sizing of elements in the box model?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "The 'box-sizing' property controls how an element's total width and height are calculated. The default value, 'content-box', includes only the content area in the size, while 'border-box' includes padding and border.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "The 'box-sizing' property is used to define the box-shadow in CSS styles.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Box-sizing is used for creating text formatting styles in CSS.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "The 'box-sizing' property is used for positioning elements in CSS.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Describe the CSS 'flexbox' layout model and how it simplifies the creation of complex layouts.",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Flexbox is a layout model that makes it easier to design complex layouts by providing a flexible way to distribute space and align elements within a container. It is particularly useful for one-dimensional layouts.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Flexbox is used to create text formatting styles in CSS.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Flexbox is primarily used for creating navigation menus in CSS.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "The 'flexbox' layout model is only supported in older web browsers.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What is the 'grid' layout model in CSS, and how does it differ from the 'flexbox' layout model?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "The 'grid' layout model is used for two-dimensional layouts, allowing you to create complex grids of rows and columns. 'Flexbox' is primarily for one-dimensional layouts, like rows or columns.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "The 'grid' layout is a simplified version of 'flexbox' with fewer features.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "The 'grid' layout model is only used for text formatting in CSS.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "Flexbox and grid layouts serve the same purpose and can be used interchangeably.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Explain the concept of 'transform' and 'transition' properties in CSS and how they can be used for animations and transformations.",
+    "options": [
+      {
+        "id": 1,
+        "answer": "The 'transform' property is used for 2D and 3D transformations, such as scaling, rotating, and translating elements. The 'transition' property is used to control the timing of CSS property changes, creating smooth animations.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Transform and transition are used to create text formatting styles in CSS.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Transform and transition are primarily used for creating navigation menus in CSS.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "Transform and transition are used for defining the structure of web content in CSS.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What is the 'position' property in CSS, and how can it be used to control the positioning of elements within their containing elements?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "The 'position' property is used to control the positioning of elements within their containing elements. Values include 'static', 'relative', 'absolute', and 'fixed'.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "The 'position' property is used for creating responsive layouts in CSS.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Positioning is not possible in CSS; it requires JavaScript.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "Positioning is only used for formatting text in CSS.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What is the 'pseudo-element' in CSS, and how does it differ from 'pseudo-classes'?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "A pseudo-element is used to style a specific part of an element, such as '::before' and '::after'. Pseudo-classes select elements based on their state, like ':hover' or ':nth-child'.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Pseudo-elements and pseudo-classes are the same and can be used interchangeably.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Pseudo-elements are only used for formatting text in CSS.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "Pseudo-elements are used for creating interactive forms in CSS.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Explain the CSS 'custom properties' (CSS variables) and their benefits in web development.",
+    "options": [
+      {
+        "id": 1,
+        "answer": "CSS custom properties allow you to define reusable variables for CSS values. They provide modularity, maintainability, and the ability to change styles dynamically.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "CSS custom properties are used to create dynamic content in CSS styles.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "CSS custom properties are only used for animations in CSS.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "CSS custom properties are primarily used for formatting text in CSS.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Describe the concept of 'CSS-in-JS' and its use cases in modern web development.",
+    "options": [
+      {
+        "id": 1,
+        "answer": "CSS-in-JS is an approach that involves writing CSS styles in JavaScript files. It offers component-based styling, better modularity, and dynamic theming, making it suitable for complex web applications.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "CSS-in-JS is used for creating complex animations in CSS styles.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "CSS-in-JS is only used for text formatting in CSS.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "CSS-in-JS is primarily used for creating navigation menus in CSS.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What are 'CSS methodologies' such as BEM and SMACSS, and how do they help in structuring and maintaining CSS code in large projects?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "CSS methodologies are systematic approaches for organizing and writing CSS code. BEM (Block Element Modifier) and SMACSS (Scalable and Modular Architecture for CSS) are two popular methodologies that enhance code maintainability, scalability, and collaboration in large projects.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "CSS methodologies are only relevant for small web projects.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "CSS methodologies are used for creating interactive forms in CSS.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "CSS methodologies are primarily used for defining the structure of web content in CSS.",
+        "isCorrect": false
+      }
+    ]
+  }
+]

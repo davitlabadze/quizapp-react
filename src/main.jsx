@@ -9,6 +9,9 @@ import Angular from "./routes/angular";
 import "./index.css";
 import Dashboard from "./routes/dashboard.";
 import Javascript from "./routes/javascript";
+import Html from "./routes/html";
+import Css from "./routes/css";
+import Svelte from "./routes/svelte";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -20,6 +23,14 @@ const router = createBrowserRouter([
     element: <Dashboard />,
     errorElement: <ErrorPage />,
     children: [
+      {
+        path: "html",
+        element: <Html />,
+      },
+      {
+        path: "css",
+        element: <Css />,
+      },
       {
         path: "javascript",
         element: <Javascript />,
@@ -35,6 +46,10 @@ const router = createBrowserRouter([
       {
         path: "angular",
         element: <Angular />,
+      },
+      {
+        path: "svelte",
+        element: <Svelte />,
       },
     ],
   },

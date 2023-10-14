@@ -1,0 +1,478 @@
+[
+  {
+    "question": "What is Svelte, and how does it differ from traditional JavaScript frameworks like React or Vue?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Svelte is a JavaScript framework that compiles components into highly efficient JavaScript code at build time. It differs from React or Vue by moving much of the work to compile time, resulting in faster runtime performance.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Svelte is a server-side rendering framework for JavaScript.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Svelte is similar to React and Vue in terms of runtime performance.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "Svelte is primarily used for mobile app development.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Explain the concept of 'reactive declarations' in Svelte and how they make state management more straightforward.",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Reactive declarations in Svelte are statements that automatically update when their dependencies change. They simplify state management by eliminating the need for complex state update logic.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Reactive declarations in Svelte are used for creating animations in web applications.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Reactive declarations are similar to React's state management.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "Reactive declarations are only used for server-side rendering in Svelte.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What is a Svelte component, and how is it different from components in other front-end frameworks?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "A Svelte component is a reusable UI element that encapsulates the HTML, CSS, and JavaScript for a specific part of a web application. It differs from components in other frameworks by compiling to efficient JavaScript at build time.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Svelte components are not used for building web applications.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Svelte components are only used for defining the structure of web content.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "Svelte components are similar to components in React.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "How does Svelte handle animations and transitions, and what are some advantages of Svelte's approach to animations?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Svelte provides a built-in 'transition' directive that simplifies the creation of animations and transitions. Its advantages include efficient and automatic memory management, resulting in smoother animations.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Svelte relies on external libraries for handling animations.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Svelte does not support animations and transitions.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "Svelte's animations are not suitable for modern web applications.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What are Svelte stores, and how do they help manage global state in Svelte applications?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Svelte stores are objects used to share state across multiple components in a Svelte application. They simplify global state management and provide a way to reactively update components.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Svelte stores are only used for local state management in components.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Svelte stores are primarily used for handling server-side data in Svelte applications.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "Svelte stores are not a part of Svelte's state management.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Explain the concept of 'slots' in Svelte and how they facilitate component composition and reusability.",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Slots in Svelte allow you to define areas within a component where content can be injected from the parent component. This promotes component reusability and composition.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Slots are used for creating animations in Svelte.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Slots are primarily used for defining the structure of web content in Svelte.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "Slots are not supported in Svelte.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What are Svelte's reactivity system and how do they differ from other front-end frameworks?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Svelte's reactivity system automatically tracks dependencies and updates the DOM when data changes. Unlike other frameworks, Svelte shifts the work from runtime to compile time, resulting in more efficient updates.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Svelte's reactivity system is based on manual data binding, similar to other frameworks.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Svelte's reactivity system is primarily used for animations.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "Svelte's reactivity system is not suitable for complex web applications.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "How does Svelte handle server-side rendering (SSR), and what are the benefits of using Svelte for SSR?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Svelte supports server-side rendering by precompiling components into efficient JavaScript at build time. Benefits of Svelte for SSR include improved initial page load performance and SEO optimization.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Svelte does not support server-side rendering.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Svelte's SSR is slower than client-side rendering.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "Svelte's SSR is primarily used for creating animations.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What are the limitations or challenges you may encounter when working with Svelte, and how can you address them?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Svelte has a smaller community and fewer third-party libraries compared to more established frameworks, which may limit available resources. Addressing this may involve writing custom components or solutions.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Svelte does not have any limitations or challenges.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Svelte's limitations can only be addressed by using other frameworks alongside it.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "Svelte's limitations can be overcome by adding more dependencies to your project.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Describe the role of the Svelte compiler and how it impacts the development process and runtime performance.",
+    "options": [
+      {
+        "id": 1,
+        "answer": "The Svelte compiler transforms Svelte components into highly optimized JavaScript code during the build process. This precompilation results in smaller bundle sizes and faster runtime performance.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "The Svelte compiler is not used in Svelte development.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "The Svelte compiler primarily focuses on creating animations in Svelte applications.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "The Svelte compiler is only relevant for server-side rendering in Svelte.",
+        "isCorrect": false
+      }
+    ]
+  },
+
+  {
+    "question": "Explain the use of Svelte's 'await' blocks and how they can handle asynchronous operations within a component.",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Svelte's 'await' blocks allow you to perform asynchronous operations within a component. They simplify handling promises and help maintain a responsive user interface.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Svelte does not support asynchronous operations.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Asynchronous operations in Svelte are primarily managed using external libraries.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "Asynchronous operations in Svelte are not relevant for web development.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Describe the Svelte event system and how it differs from event handling in other JavaScript frameworks.",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Svelte's event system simplifies event handling by using declarative syntax. Event listeners are automatically managed and removed, reducing the risk of memory leaks compared to other frameworks.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Svelte's event system is similar to event handling in React.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Svelte's event system is primarily used for creating animations.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "Svelte's event system is not efficient for web applications.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "How does Svelte handle code splitting and lazy loading of components, and what are the benefits of this approach?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Svelte supports code splitting and lazy loading by automatically generating split points in your components. This reduces initial bundle size and improves page load times.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Svelte does not support code splitting and lazy loading.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Code splitting and lazy loading in Svelte are primarily used for creating animations.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "Code splitting and lazy loading in Svelte do not impact web performance.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What is the role of Svelte's store modules, and how do they help manage shared state in large applications?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Svelte's store modules provide a way to structure and organize shared state in larger applications. They simplify state management, maintainability, and collaboration among developers.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Svelte's store modules are only used for local state management in components.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Svelte's store modules are primarily used for handling server-side data.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "Svelte's store modules are not relevant for web development.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Explain the benefits and use cases of Svelte's native transitions compared to CSS-based transitions.",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Svelte's native transitions are more performant and memory-efficient than CSS-based transitions. They are particularly beneficial for complex animations and are easier to work with in Svelte components.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Svelte's native transitions are primarily used for simple animations.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Svelte does not support native transitions.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "CSS-based transitions are always more efficient than Svelte's native transitions.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "How can Svelte be integrated with other JavaScript frameworks or libraries in a web application, and what considerations should be kept in mind?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Svelte can be integrated with other frameworks using Svelte components, custom elements, or server-side rendering. Considerations include handling data flow and ensuring that the integration is seamless and efficient.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Svelte cannot be integrated with other frameworks or libraries.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Svelte integration with other frameworks is primarily used for creating animations.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "Svelte's integration with other frameworks always results in performance issues.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Describe Svelte's architecture and its core principles for achieving high-performance web applications.",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Svelte's architecture is based on compiling components at build time, focusing on efficient updates and minimal runtime overhead. Core principles include reactivity, fine-grained change tracking, and eliminating virtual DOM diffing.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Svelte's architecture is similar to other front-end frameworks, with a focus on runtime performance.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Svelte's architecture primarily revolves around creating animations in web applications.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "Svelte's architecture does not prioritize performance.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Explain the concept of Svelte's 'hydration' and how it contributes to a better user experience in server-side rendered applications.",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Svelte's hydration process reuses the server-rendered HTML and enhances it with client-side interactivity. This results in a faster initial page load and a smooth transition to a fully interactive application.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Svelte does not support server-side rendering and hydration.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Svelte's hydration is primarily used for handling animations.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "Hydration in Svelte negatively impacts the user experience.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Discuss advanced optimization techniques in Svelte, such as code splitting, tree shaking, and SSR caching, and their impact on web application performance.",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Advanced optimization techniques in Svelte improve application performance by reducing bundle size, eliminating unused code, and optimizing server-side rendering. They lead to faster load times and better user experiences.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Svelte does not support advanced optimization techniques.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Advanced optimization techniques in Svelte are only used for creating animations.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "Advanced optimization techniques in Svelte do not significantly impact performance.",
+        "isCorrect": false
+      }
+    ]
+  }
+]

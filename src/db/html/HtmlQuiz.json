@@ -1,0 +1,502 @@
+[
+  {
+    "question": "What does HTML stand for, and what is its primary purpose in web development?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "HTML stands for Hypertext Markup Language and is used for structuring the content of web pages.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "HTML stands for Hyper Transfer Markup Language and is used for defining styles in web pages.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "HTML stands for High-Level Text Markup Language and is used for server-side scripting.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "HTML stands for Hyperlink and Text Markup Language and is used for creating animations on web pages.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Explain the difference between HTML and HTML5.",
+    "options": [
+      {
+        "id": 1,
+        "answer": "HTML5 is the latest version of HTML and introduces new elements and features, such as audio and video support.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "HTML and HTML5 are the same; the terms are used interchangeably.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "HTML is for web development, while HTML5 is for desktop application development.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "HTML5 is a markup language, while HTML is a programming language.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What is the purpose of the '<head>' section in an HTML document, and what are some common elements found within it?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "The '<head>' section contains metadata about the document, including the title, character encoding, and links to external resources like stylesheets and scripts.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "The '<head>' section is used to define the main content of the web page.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "The '<head>' section contains the visible content of the web page.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "The '<head>' section is optional in HTML documents.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What is the purpose of the '<a>' element in HTML, and how can it be used to create hyperlinks?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "The '<a>' element is used to create hyperlinks, allowing users to navigate to other web pages or resources.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "The '<a>' element is used for adding images to a web page.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "The '<a>' element is used to format text in HTML documents.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "The '<a>' element is used to create interactive forms.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Explain the purpose of the '<img>' element in HTML and how to include images on a web page.",
+    "options": [
+      {
+        "id": 1,
+        "answer": "The '<img>' element is used to display images on a web page by specifying the image source (URL) using the 'src' attribute.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "The '<img>' element is used for creating image maps.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "The '<img>' element is used for adding image captions to web pages.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "The '<img>' element is used for creating image galleries.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "How do you create an ordered (numbered) list and an unordered (bulleted) list in HTML?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "To create an ordered list, use the '<ol>' element with '<li>' elements inside. For an unordered list, use the '<ul>' element with '<li>' elements inside.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Use the '<ol>' element for unordered lists and the '<ul>' element for ordered lists.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Create lists using the '<list>' element with '<item>' elements inside.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "Lists are not supported in HTML.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What is the purpose of the '<div>' element in HTML, and how is it commonly used in web development?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "The '<div>' element is a block-level container used to group and style content, often serving as a container for CSS styling.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "The '<div>' element is used to create inline text elements.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "The '<div>' element is used for embedding videos and multimedia content.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "The '<div>' element is primarily used for creating tables.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "How can you include comments in an HTML document, and why are comments useful in web development?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "You can include comments in HTML using '<!--' to start a comment and '-->' to end it. Comments are useful for providing explanations or hiding code that is not meant to be displayed.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Comments in HTML are created using the '<comment>' element.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "HTML documents do not support comments.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "Comments in HTML are created using the '<note>' element.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What is the purpose of the '<table>' element in HTML, and how can you create tables with rows and columns?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "The '<table>' element is used to create tables with rows and columns. You can use '<tr>' for table rows, '<td>' for table data cells, and '<th>' for table headers.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Tables in HTML are created using the '<grid>' element.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "The '<table>' element is used for embedding multimedia content in HTML.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "Tables are no longer used in modern web development.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What is the purpose of the '<form>' element in HTML, and how is it used for user input and data submission?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "The '<form>' element is used to create interactive forms, allowing users to input data and submit it to a server for processing.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "The '<form>' element is used for creating navigation menus in HTML.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Forms are not supported in HTML.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "The '<form>' element is used to create pop-up windows in web pages.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What is semantic HTML, and why is it important in web development?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Semantic HTML is a way of writing HTML that uses meaningful elements to structure web content, making it more accessible and understandable for both developers and users.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Semantic HTML is an outdated HTML version that is no longer relevant in modern web development.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Semantic HTML is a technique for hiding content from search engines.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "Semantic HTML is primarily used for creating animations on web pages.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Explain the purpose of the '<iframe>' element in HTML and how it can be used to embed external content.",
+    "options": [
+      {
+        "id": 1,
+        "answer": "The '<iframe>' element is used to embed external content within a web page, such as other websites or multimedia content, by specifying the source URL using the 'src' attribute.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "The '<iframe>' element is used to create inline forms.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "The '<iframe>' element is used for adding background images to web pages.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "The '<iframe>' element is used for creating image galleries.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What is the purpose of the '<audio>' and '<video>' elements in HTML, and how can you embed audio and video content in web pages?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "The '<audio>' and '<video>' elements are used to embed audio and video content on web pages, allowing users to play multimedia files. You specify the source using the 'src' attribute.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Audio and video content cannot be embedded in HTML documents.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "The '<audio>' element is used for audio content, and the '<video>' element is used for text content.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "Audio and video are only supported in HTML5, not in HTML.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What is the purpose of the '<canvas>' element in HTML, and how can it be used for graphics and animations?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "The '<canvas>' element is used to draw graphics and create animations in HTML using JavaScript. You can use the 2D drawing API to manipulate the canvas.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "The '<canvas>' element is used for embedding external content within a web page.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "The '<canvas>' element is used for creating interactive forms.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "Canvas elements are primarily used for displaying text on web pages.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What is the purpose of the '<link>' element in HTML, and how is it used to include external stylesheets in web pages?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "The '<link>' element is used to link external stylesheets to an HTML document. You specify the 'rel' attribute as 'stylesheet' and the 'href' attribute as the stylesheet URL.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "The '<link>' element is used to create hyperlinks to other web pages.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "The '<link>' element is used for including JavaScript files in HTML documents.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "External stylesheets are not supported in HTML.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What is the purpose of the '<meta>' element in HTML, and how can it be used for specifying character encoding and page metadata?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "The '<meta>' element is used to include metadata in HTML documents, such as character encoding, page description, and author information. It ensures proper rendering of content and SEO optimization.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "The '<meta>' element is used to create navigation menus in HTML.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "The '<meta>' element is used for embedding multimedia content in web pages.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "The '<meta>' element is used for creating image galleries.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "How do you create a responsive web design using HTML and CSS, and what are some key techniques for achieving responsiveness?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "A responsive web design is achieved by using CSS media queries to adapt the layout and styling of a website based on the screen size and device. Techniques include using flexible grids and relative units like percentages.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Responsive web design is only possible with JavaScript, not with HTML and CSS.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Responsive web design is primarily achieved through HTML, and CSS is not involved.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "Responsive web design is a technique that is no longer relevant in modern web development.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Explain the purpose of the '<svg>' element in HTML, and how can it be used to create scalable vector graphics on web pages?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "The '<svg>' element is used to embed vector graphics on web pages. SVG graphics are scalable and resolution-independent, making them suitable for logos, icons, and interactive graphics.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "The '<svg>' element is used to create simple text-based animations on web pages.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "The '<svg>' element is used for creating interactive forms.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "Scalable vector graphics are not supported in HTML.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What is the purpose of the '<details>' and '<summary>' elements in HTML, and how can they be used to create collapsible content sections?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "The '<details>' element is used to create collapsible sections of content, and the '<summary>' element provides a visible label for the section. Users can click the summary to expand or collapse the content.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "The '<details>' and '<summary>' elements are used to create pop-up windows on web pages.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Collapsible content sections are not supported in HTML.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "The '<details>' and '<summary>' elements are used for creating image galleries.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Describe the use of the '<progress>' element in HTML and how it can be used to create progress bars for tracking tasks or processes.",
+    "options": [
+      {
+        "id": 1,
+        "answer": "The '<progress>' element is used to create progress bars in HTML, showing the completion status of tasks or processes. You can set the 'value' and 'max' attributes to control the progress.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Progress bars are not supported in HTML.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "The '<progress>' element is used for creating image galleries.",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "answer": "Progress bars are primarily created using JavaScript.",
+        "isCorrect": false
+      }
+    ]
+  }
+]

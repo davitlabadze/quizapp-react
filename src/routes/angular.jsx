@@ -13,7 +13,7 @@ const Angular = () => {
       hoverBgColor="lg:hover:bg-red-500"
       job={AngularJob}
       documentation={AngularDoc}
-      textColor="text-sky-500"
+      textColor="text-red-500"
       jobText="You can find job here"
       learnText="You can learn here"
     />

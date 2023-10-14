@@ -13,7 +13,7 @@ const Javascript = () => {
       hoverBgColor="lg:hover:bg-yellow-400"
       job={JsJob}
       documentation={JsDoc}
-      textColor="text-sky-500"
+      textColor="text-yellow-500"
       jobText="You can find job here"
       learnText="You can learn here"
     />
