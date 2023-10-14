@@ -1,9 +1,9 @@
-import ReactIcon from "../assets/react.svg";
-import W3schools from "../assets/w3schools.svg";
-import CodeCademy from "../assets/codecademy.svg";
-import Mdn from "../assets/mdn.svg";
-import Scrimba from "../assets/scrimba.svg";
-import FreeCodeCamp from "../assets/freecodecamp.svg";
+import ReactIcon from "../../assets/react.svg";
+import W3schools from "../../assets/w3schools.svg";
+import CodeCademy from "../../assets/codecademy.svg";
+import Mdn from "../../assets/mdn.svg";
+import Scrimba from "../../assets/scrimba.svg";
+import FreeCodeCamp from "../../assets/freecodecamp.svg";
 const ReactDoc = [
   {
     id: 1,
@@ -20,7 +20,7 @@ const ReactDoc = [
   {
     id: 3,
     name: "Codecademy",
-    href: "hhttps://www.codecademy.com/learn/react-101",
+    href: "https://www.codecademy.com/learn/react-101",
     src: CodeCademy,
   },
   {
@@ -50,7 +50,7 @@ const ReactDoc = [
   {
     id: 8,
     name: "FreeCodeCamp",
-    href: "https://www.freecodecamp.org/",
+    href: "https://www.freecodecamp.org/learn/front-end-development-libraries/",
     src: FreeCodeCamp,
   },
 ];

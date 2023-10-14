@@ -1,10 +1,8 @@
-import Upwork from "../assets/upwork.svg";
-import Turing from "../assets/turing.svg";
-import Fiverr from "../assets/fiverr.svg";
-import Arc from "../assets/arc.svg";
-import Dice from "../assets/dice.svg";
-import Indeed from "../assets/indeed.svg";
-import Clutchco from "../assets/clutchco.svg";
+import Upwork from "../../assets/upwork.svg";
+import Fiverr from "../../assets/fiverr.svg";
+import JsRemotly from "../../assets/jsremotly.png";
+import Indeed from "../../assets/indeed.svg";
+import Clutchco from "../../assets/clutchco.svg";
 const Reactjob = [
   {
     id: 1,
@@ -26,9 +24,9 @@ const Reactjob = [
   },
   {
     id: 4,
-    name: "Turing",
-    href: "https://www.turing.com/",
-    src: Turing,
+    name: "JS Remotly",
+    href: "https://jsremotely.com/",
+    src: JsRemotly,
   },
   {
     id: 5,
@@ -38,15 +36,15 @@ const Reactjob = [
   },
   {
     id: 6,
-    name: "Arc",
-    href: "https://arc.dev/",
-    src: Arc,
+    name: "jsremote",
+    href: "https://jsremote.jobs/",
+    src: "https://jsremote.jobs/assets/images/meta/og-sharing-image-js-remote-jobs.jpg",
   },
   {
     id: 7,
-    name: "Dice",
-    href: "https://www.dice.com/",
-    src: Dice,
+    name: "JSJOBBS",
+    href: "https://jsjobbs.com/",
+    src: "https://jsjobbs.com/static/media/jsjobbs-logo-dark.cacf9f304b524aa65eb8.png",
   },
   {
     id: 8,

@@ -1,6 +1,6 @@
 const ResultComponent = ({ textColor, text, data }) => {
   return (
-    <div className="mx-auto  max-w-7xl px-6 lg:px-8">
+    <div className="px-6 mx-auto max-w-7xl lg:px-8">
       <h3
         className={`${textColor} text-2xl mt-2 text-center font-semibold leading-6`}
       >
@@ -16,7 +16,7 @@ const ResultComponent = ({ textColor, text, data }) => {
           >
             <a href={item.href} target="_blank" rel="noreferrer">
               <img
-                className="max-h-12  w-full object-contain"
+                className="object-contain w-full max-h-12"
                 src={item.src}
                 alt={item.name}
                 title={item.name}

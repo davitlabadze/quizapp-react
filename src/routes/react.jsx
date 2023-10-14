@@ -1,8 +1,8 @@
-import reactQuiz from "../db/reactQuiz.json";
+import reactQuiz from "../db/react/reactQuiz.json";
 import { BiLogoReact } from "react-icons/bi";
 import MainComponent from "../components/MainComponent";
-import ReactJob from "../db/ReactJob";
-import ReactDoc from "../db/ReactDoc";
+import ReactJob from "../db/react/ReactJob";
+import ReactDoc from "../db/react/ReactDoc";
 
 export const React = () => {
   return (
