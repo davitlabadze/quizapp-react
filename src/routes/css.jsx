@@ -2,7 +2,7 @@ import CssQuiz from "../db/css/CssQuiz.json";
 import { TbBrandCss3 } from "react-icons/tb";
 import MainComponent from "../components/MainComponent";
 import CssJob from "../db/css/CssJob";
-import CssDoc from "../db/react/ReactDoc";
+import CssDoc from "../db/css/CssDoc";
 
 export const React = () => {
   return (
