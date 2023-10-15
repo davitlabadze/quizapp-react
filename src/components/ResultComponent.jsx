@@ -12,7 +12,7 @@ const ResultComponent = ({ textColor, text, data }) => {
         {data.map((item) => (
           <div
             key={item.id}
-            className={`p-8 sm:p-10 contrast-0 hover:contrast-100 duration-300`}
+            className={`p-8 sm:p-10 lg:contrast-0 lg:hover:contrast-100 lg:duration-300`}
           >
             <a href={item.href} target="_blank" rel="noreferrer">
               <img
